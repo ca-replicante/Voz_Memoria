@@ -6,7 +6,7 @@ let imgCurrent;  // Imagen actual que se muestra
 let imgArray = [];  // Array para almacenar las imágenes de la carpeta
 let fadeLevel = 255;  // Nivel de desvanecimiento inicial (255 = completamente visible para la imagen fondo)
 let fadeSpeed = 5;  // Velocidad de desvanecimiento
-let imgChangeDelay = 2000;  // Tiempo mínimo de visualización de cada imagen (3 segundos)
+let imgChangeDelay = 3000;  // Tiempo mínimo de visualización de cada imagen (3 segundos)
 let lastImageChange = 0;  // Momento en que se cambió la imagen por última vez
 let imgVisible = false;
 let imgStarted = false;  // Control para saber si el sonido ha activado la visualización de imágenes
