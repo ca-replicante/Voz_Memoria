@@ -20,7 +20,7 @@ function preload() {
   imgFondo = loadImage('assets/fondo.png');
   
   // Aquí asumimos que las imágenes tienen el nombre "imagen1.png", "imagen2.png", etc.
-  for (let i = 1; i <= 33; i++) {  // Cambia el número según la cantidad de imágenes que tengas
+  for (let i = 1; i <= 10; i++) {  // Cambia el número según la cantidad de imágenes que tengas
     imgArray.push(loadImage(`assets/imagenes/imagen${i}.png`));
   }
 }
